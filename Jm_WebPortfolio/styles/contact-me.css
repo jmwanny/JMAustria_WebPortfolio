@@ -1,0 +1,426 @@
+
+/*ContactMe-Setion*/
+.Contact-Me {
+  width: 100%;
+  background-color: #050C16;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom:100px;
+}
+ h1{
+color:white;
+text-align: center;
+font-size: 3rem;
+
+}
+p{
+  color:white;
+  text-align: center;
+  font-weight: 100;
+}
+.Main-Container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+}
+.socmed-container{
+  width: 700px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+
+}
+
+.Github, .Facebook, .LinkedIn, .Instagram, .X{
+   height: 100px;
+   width:100%;
+    background-color: #0e1a2b;
+  border: 1px solid #1c2b40;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(10px);
+   display:flex;
+   flex-direction: row;
+   gap:10px;
+   transition: opacity 0.15s;
+}
+.Github:hover,
+.Facebook:hover,
+.LinkedIn:hover,
+.Instagram:hover,
+.X:hover{
+  opacity:0.8;
+  transform: scale(1);
+  
+  
+}
+.Github img,
+.Facebook img,
+.LinkedIn img,
+.Instagram img,
+.X img{
+  width:100px;
+ 
+ 
+}
+.Facebook-Text, .LinkedIn-Text, .Github-Text,
+.Instagram-Text, .X-Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:100%;
+}
+.Title{
+  text-align: start;
+}
+.Text{
+   text-align: start;
+
+}
+.symbol, .symbolB, .symbolC,
+.symbolD, .symbolE{
+  color:white;
+  padding-right: 10px;
+}
+.text-with-arrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Ig{
+   border: 1px solid rgba(255, 255, 255, 0.3);
+ background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(10px);
+   height: 100px;
+}
+.Twitter{
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   height: 100px;
+     background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+
+.form-container{
+  width: 550px;
+  height: 500px;
+background-color: #0e1a2b;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius:5px;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.form-container h1{
+color: white;
+font-size: 1.3rem;
+font-weight: 500;
+text-align: center;
+padding-bottom: 10px;
+}
+.form-container .message-icon{
+  margin-right:8px;
+}
+.form{
+  width: 90%;
+  gap:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Name, .Email, .Message{
+  height: auto;
+}
+
+.Name form input,
+.Email form input{
+ width: 100%;
+ height: 40px;
+  font-family: 'Montserrat';
+  background-color: #0e1a2b;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius:5px;
+  color:white;
+  padding-left: 10px;
+   font-family: 'Montserrat';
+}
+.Name form input::placeholder,
+.Email form input::placeholder {
+font-size: 1rem;
+padding-left:5px;
+color: rgba(255, 255, 255, 0.7);
+
+}
+.Message textarea{
+  width:100%;
+  height:28vh;
+background-color: #0e1a2b;
+ border: 1px solid rgba(255, 255, 255, 0.3);
+ box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius:5px;
+  color:white;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Montserrat';
+
+}
+.Message textarea::placeholder{
+  padding-left: 5px;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.Name form input:focus,
+.Email form input:focus,
+.Message textarea:focus{
+   outline: none;
+  border: 2px solid #00eaff;
+  box-shadow: 0 0 5px #00eaff;
+  background-color: #0a0a23;
+  color: #fff;
+}
+.Send{
+ padding:15px;
+  font-family: 'Montserrat';
+  background: #00eaff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius:5px;
+  color: #050C16;
+  font-size: 15px;
+  font-weight: bold;
+  transition:opacity 0.15s;
+  cursor: pointer;
+}
+.Send:hover{
+  background-color: #00c8d7;
+}
+.Send:active{
+  opacity:0.4;
+}
+
+
+@media (max-width:480px){
+  
+/*ContactMe-Setion*/
+.Contact-Me {
+}
+ h1{
+font-size: 40px;
+
+}
+p{
+  font-size: 14px;
+}
+.Main-Container{
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.socmed-container{
+  width: 350px;
+
+}
+
+
+
+
+.form-container{
+  width: 340px;
+}
+
+
+.message-icon{
+  font-size:35px;
+}
+}
+
+@media (min-width:481px) and (max-width:691px){
+
+  /*ContactMe-Setion*/
+.Contact-Me {
+}
+ h1{
+font-size: 40px;
+}
+p{
+  font-size: 14px;
+}
+.Main-Container{
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.socmed-container{
+  max-width: 480px;
+
+}
+
+
+
+
+.form-container{
+  max-width: 420px;
+}
+
+
+.message-icon{
+  font-size:35px;
+}
+}
+
+@media (min-width:660px) and (max-width:860px){
+
+    /*ContactMe-Setion*/
+.Contact-Me {
+
+}
+ h1{
+font-size: 50px;
+}
+p{
+  font-size: 14px;
+}
+.Main-Container{
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.socmed-container{
+  max-width: 600px;
+
+}
+
+
+
+
+.form-container{
+  max-width: 520px;
+}
+
+
+.message-icon{
+  font-size:35px;
+}
+
+}
+
+
+@media (min-width:861px) and (max-width:1199px){
+
+      /*ContactMe-Setion*/
+.Contact-Me {
+}
+ h1{
+font-size: 50px;
+}
+p{
+  font-size: 14px;
+}
+.Main-Container{
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.socmed-container{
+  max-width: 900px;
+
+}
+
+
+
+
+.form-container{
+  max-width: 900px;
+}
+
+
+.message-icon{
+  font-size:35px;
+}
+}
+
+@media (min-width:1200px) and (max-width:1287px){
+        /*ContactMe-Setion*/
+.Contact-Me {
+}
+ h1{
+font-size: 50px;
+}
+p{
+  font-size: 14px;
+}
+.Main-Container{
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.socmed-container{
+  max-width: 600px;
+
+}
+
+
+
+
+.form-container{
+  max-width: 900px;
+}
+
+
+.message-icon{
+  font-size:35px;
+}
+
+}
+
+@media (min-width:1440px){ 
+        /*ContactMe-Setion*/
+.Contact-Me {
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}
+ h1{
+font-size: 70px;
+}
+p{
+  font-size: 15px;
+}
+.Main-Container{
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:50px
+}
+.socmed-container{
+  max-width: 600px;
+
+}
+
+}

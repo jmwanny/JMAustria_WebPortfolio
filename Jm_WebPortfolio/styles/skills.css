@@ -1,0 +1,280 @@
+
+/*Skills Section*/
+.Skills {
+background-color: black;
+  width: 100%;
+  overflow: visible;
+  text-align: center;
+  background-color: #050C16;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px; 
+  padding-bottom: 100px;
+}
+
+.Skills h1 {
+  color:white;
+  font-size: 4rem;
+  padding-bottom: 20px;
+
+}
+
+.Skills p {
+  color: white;
+  font-size: 1rem;
+  height: 20px;
+   
+}
+
+.PL_Container{
+  width:100%;
+  max-width:1500px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+
+
+  
+  
+}
+.Pic1, .Pic2, .Pic3, .Pic4{
+  height: 430px; 
+  border:1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius:10px;
+  width:280px;
+  margin:auto;
+  
+  
+  
+  }
+
+  .img-container-column{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 70px;
+    gap:10px;
+    
+  
+    
+  }
+
+  
+  .img-container-column img, .img-container-row img{
+    width:70px;
+    height:70px;
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+    margin-top: 10px;
+    cursor:pointer;
+    
+  }  
+  #js{
+    width:70px;
+    height:70px;
+    margin-top:10px;
+  }
+
+  .img-container-row {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 72px auto 0px auto;
+    gap:10px
+  }
+
+.img1aname,
+.img1bname,
+.img1cname,
+.img2aname,
+.img2bname,
+.img2cname,
+.img3aname,
+.img3bname,
+.img3cname,
+.img3dname,
+.img3ename,
+.img4aname,
+.img4bname,
+.img4cname,
+.img4dname,
+.img4ename {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8rem;
+  padding: 2px 6px;
+  color: white;
+  border-radius: 4px;
+  display: none;
+  text-align: center;
+  width: max-content;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+
+
+.Pic1 p, .Pic2 p, .Pic3 p, .Pic4 p{
+  font-size:20px;
+  padding-top:20px;
+  
+}
+
+#logoToggle, #logoToggle2, #logoToggle3, #logoToggle4,
+#logoToggle5, #logoToggle6, #logoToggle7,  #logoToggle8,
+#logoToggle9,  #logoToggle10,  #logoToggle11, #logoToggle12,
+#logoToggle13,#logoToggle14,#logoToggle15{
+  display: none;
+}
+.logo-wrapper, .logo-wrapper2, .logo-wrapper3,
+.logo-wrapper4, .logo-wrapper5, .logo-wrapper6,
+.logo-wrapper7, .logo-wrapper8, .logo-wrapper9,
+.logo-wrapper10,.logo-wrapper11,.logo-wrapper12,
+.logo-wrapper13,.logo-wrapper14, .logo-wrapper15{
+background-color:rgba(255, 255, 255, 0.145);;
+border:1px solid rgba(255, 255, 255, 0.3);
+border-radius:20px;
+display: inline-block;
+width:90px;
+height:90px;
+position:relative;
+
+}
+ 
+
+#logoToggle:checked + .logo-wrapper img,
+#logoToggle2:checked + .logo-wrapper2 img,
+#logoToggle3:checked + .logo-wrapper3 img,
+#logoToggle4:checked + .logo-wrapper4 img,
+#logoToggle5:checked + .logo-wrapper5 img,
+#logoToggle6:checked + .logo-wrapper6 img,
+#logoToggle7:checked + .logo-wrapper7 img,
+#logoToggle8:checked + .logo-wrapper8 img,
+#logoToggle9:checked + .logo-wrapper9 img,
+#logoToggle10:checked + .logo-wrapper10 img,
+#logoToggle11:checked + .logo-wrapper11 img,
+#logoToggle12:checked + .logo-wrapper12 img,
+#logoToggle13:checked + .logo-wrapper13 img,
+#logoToggle14:checked + .logo-wrapper14 img,
+#logoToggle15:checked + .logo-wrapper15 img{
+   transform: scale(0.5) translateY(-40px);
+  animation: spinLoop 2s linear infinite 0.5s;
+
+
+}
+#logoToggle:checked + .logo-wrapper .img1aname,
+#logoToggle2:checked + .logo-wrapper2 .img1bname,
+#logoToggle3:checked + .logo-wrapper3 .img1cname,
+#logoToggle4:checked + .logo-wrapper4 .img2aname,
+#logoToggle5:checked + .logo-wrapper5 .img2bname,
+#logoToggle6:checked + .logo-wrapper6 .img2cname,
+#logoToggle7:checked + .logo-wrapper7 .img3aname,
+#logoToggle8:checked + .logo-wrapper8 .img3bname,
+#logoToggle9:checked + .logo-wrapper9 .img3cname,
+#logoToggle10:checked + .logo-wrapper10 .img3dname,
+#logoToggle11:checked + .logo-wrapper11 .img3ename,
+#logoToggle12:checked + .logo-wrapper12 .img4aname,
+#logoToggle13:checked + .logo-wrapper13 .img4bname,
+#logoToggle14:checked + .logo-wrapper14 .img4cname,
+#logoToggle15:checked + .logo-wrapper15 .img4dname{
+  display: block;
+  animation:fadeIn 1s;
+}
+
+#logoToggle:not(:checked) + .logo-wrapper img,
+#logoToggle2:not(:checked) + .logo-wrapper2 img,
+#logoToggle3:not(:checked) + .logo-wrapper3 img,
+#logoToggle4:not(:checked) + .logo-wrapper4 img,
+#logoToggle5:not(:checked) + .logo-wrapper5 img,
+#logoToggle6:not(:checked) + .logo-wrapper6 img,
+#logoToggle7:not(:checked) + .logo-wrapper7 img,
+#logoToggle8:not(:checked) + .logo-wrapper8 img,
+#logoToggle9:not(:checked) + .logo-wrapper9 img,
+#logoToggle10:not(:checked) + .logo-wrapper10 img,
+#logoToggle11:not(:checked) + .logo-wrapper11 img,
+#logoToggle12:not(:checked) + .logo-wrapper12 img,
+#logoToggle13:not(:checked) + .logo-wrapper13 img,
+#logoToggle14:not(:checked) + .logo-wrapper14 img,
+#logoToggle15:not(:checked) + .logo-wrapper15 img {
+  animation: none;
+  transform: scale(1) translateY(0) rotate(0deg);
+  display: inline;
+
+}
+
+@keyframes spinLoop {
+  from {
+    transform: scale(0.5) translateY(-40px) rotate(0deg);
+  }
+  to {
+    transform: scale(0.5) translateY(-40px) rotate(360deg);
+  }
+}
+
+@media (max-width:480px){
+.Skills{
+
+}
+.PL_Container{
+  grid-template-columns: 1fr;
+  row-gap: 25px;
+  height: auto;
+}
+
+.Pic1, .Pic2, .Pic3, .Pic4{
+  width:240px;
+}
+ 
+
+
+}
+
+@media (min-width:481px) and (max-width:678px){
+.Skills{
+
+}
+.PL_Container{
+  grid-template-columns: 1fr;
+  row-gap: 25px;
+  height: auto;
+}
+
+}
+
+@media (min-width:678px) and (max-width:1199px){
+
+.Skills{
+
+}
+.PL_Container{
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 0px;
+  height: auto;
+  justify-items: center;
+  max-width: 600px;
+}
+
+}
+
+@media (min-width:1500px){
+.Skills{
+  padding-top: 200px; 
+  padding-bottom: 100px;
+}
+.Skills h1 {
+  color:white;
+  font-size: 5rem;
+}
+
+}

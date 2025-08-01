@@ -1,0 +1,303 @@
+/*About-Me Section*/
+
+.About-Me {
+  width: 100% ;
+  overflow: visible;
+  background-color: #050C16;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-top: 120px; 
+  padding-bottom: 100px;
+
+ 
+}
+.About-Me-Container{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+.Pic2_Container{
+  position: relative;
+  border: none;
+  height:auto;
+  width:auto;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+
+}
+
+.Pic2_Container img{
+  height: auto;
+  width:clamp(250px, 23vw, 400px);
+  object-fit: contain;
+  border-radius: 10px;;
+}
+
+.Text_Container  {
+  position: relative;
+  height:auto;
+  width:600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+}
+.Text_Container h1{
+  color:white;
+  text-align: center;
+  font-size: clamp(1rem, 4vw, 5rem);
+}
+
+.Text_Container span{
+  color:#39D5FF;
+}
+
+.Text_Container p {
+  color: white;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  text-align: justify;
+  font-size: clamp(1rem, 1.2vw, 1.4rem)
+}
+
+.Text_Container h2 {
+  color: white;
+  text-align: justify;
+  text-align: start;
+
+}
+.Text_Container img {
+  max-width: 90px;
+  width: 100%;
+}
+
+.text-with-logo{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+@media (max-width:480px) {
+.About-Me{
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.Pic2_Container img{
+
+}
+
+.Text_Container h1{
+  font-size: 2.5rem;
+  padding-top:20px;
+}
+
+.Text_Container p {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: 1rem;
+}
+
+.Text_Container h2 {
+  text-align:center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.text-with-logo{
+  padding:0;
+
+}
+}
+@media (min-width:481px) and (max-width:723px) {
+.About-Me{
+
+}
+.Text_Container h1{
+  font-size: 2.5rem;
+    padding-top:20px;
+}
+
+.Text_Container p {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: 1rem;
+}
+
+.Text_Container h2 {
+  text-align:center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+
+.text-with-logo{
+  margin: 0;
+}
+
+}
+@media (min-width: 724px) and (max-width:744px) {
+
+.About-Me{
+
+}
+.About-Me-Container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+}
+
+.Pic2_Container{
+  position: relative;
+  height:auto;
+  padding-left: 20px;
+  justify-content: flex-start;
+}
+.Pic2_Container img{
+  height: auto;
+  width:230px;
+
+}
+.Text_Container  {
+  position: relative;
+  width:100%;
+  min-width:500px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.Text_Container h1{
+  color:white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.Text_Container span{
+  color:#39D5FF;
+}
+
+.Text_Container p {
+  color: white;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  text-align: justify;
+  font-size: clamp(1rem, 1.2vw, 1.4rem)
+}
+
+.Text_Container h2 {
+  color: white;
+  text-align:center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.Text_Container img {
+  max-width: 80px;
+  width: 100%;
+  position:absolute;
+  left:360px;
+  bottom:-10px;
+  height: auto;
+
+}
+.text-with-logo{
+  margin: 0;
+}}
+
+@media (min-width: 745px) and (max-width:849px) {
+
+  .About-Me{
+
+}
+.About-Me-Container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+}
+
+.Pic2_Container{
+  position: relative;
+  height:auto;
+  padding-left: 20px;
+  justify-content: flex-start;
+  
+
+
+}
+
+.Text_Container  {
+  position: relative;
+  width:100%;
+  min-width:500px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+
+  
+ 
+}
+.Text_Container h1{
+  color:white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.Text_Container span{
+  color:#39D5FF;
+}
+
+.Text_Container p {
+  color: white;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  text-align: justify;
+  font-size: clamp(1rem, 1.2vw, 1.4rem)
+}
+
+.Text_Container h2 {
+  color: white;
+  text-align:center;
+  margin:auto;
+  padding:0;
+}
+.text-with-logo {
+ margin: 0;
+}
+  
+}
+
+@media (min-width:1200px) {
+.Text_Container h2 {
+  font-size: 1.8rem;
+
+}
+}
+@media (min-width:1500px){
+  .About-Me{
+      padding-top: 200px; 
+  padding-bottom: 100px;
+  }
+
+}
