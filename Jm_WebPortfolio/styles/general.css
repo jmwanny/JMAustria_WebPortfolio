@@ -109,6 +109,18 @@ label,
   -webkit-tap-highlight-color: transparent !important;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:hover {
+  -webkit-box-shadow: 0 0 0 1000px #0e1a2b inset !important;
+  -webkit-text-fill-color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  font-family: 'Montserrat' !important;
+  transition: background-color 9999s ease-in-out 0s;
+}
 
 
 
