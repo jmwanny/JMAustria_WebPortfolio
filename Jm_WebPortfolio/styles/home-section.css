@@ -23,6 +23,7 @@ align-content: center;
     flex-direction: column;
     justify-content: center;
 
+
   
 }
 .hero-image-container{
@@ -84,7 +85,6 @@ padding: 0;
 width:12ch;
 text-align: center;
 display: inline;
-
 
 }
 .greeting-text{
@@ -154,8 +154,10 @@ display: inline;
      display: flex;
      flex-direction: row;
      justify-content:center ;
-    
+     
+
 }
+
 .socials-text-container:after{
   content:"";
   width:37%;
@@ -195,6 +197,7 @@ display: inline;
 
 }
 
+
 @media (max-width: 667px) {
   .intro-section-container{
     padding-top:130px;
@@ -232,7 +235,7 @@ display: none;
 @media (min-width: 668px) and (max-width:1199px) {
 .intro-section-container{
   padding-top:130px;
-       padding-bottom:100px;
+  padding-bottom:100px;
 
 
 }
@@ -244,6 +247,12 @@ display: none;
   width:9ch;
 }
 
+.socials{
+  margin-left:40px;
+}
+.socials-text{
+  font-size:14px;
+}
 
   
 }
@@ -269,6 +278,9 @@ display: none;
 }
 .socials-text{
   font-size: 20px;
+}
+.socials{
+
 }
 }
 
