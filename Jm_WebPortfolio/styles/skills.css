@@ -258,8 +258,30 @@ position:relative;
  display: flex;
  flex-direction: column;
  align-items: center;
-
-
+}
+.four-star-ratings{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-35px);
+}
+.three-star-ratings{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  transform: translateY(-35px);
+}
+.two-star-ratings{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  transform: translateY(-35px);
+}
+.five-star-ratings{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  transform: translateY(-35px);
 }
 @media (max-width:480px){
 .Skills{
