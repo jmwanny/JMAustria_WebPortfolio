@@ -113,7 +113,7 @@ display: inline;
 }
 .description-text{
     color:white;
-    font-size:clamp(0.9rem, 1.4vw, 2rem);
+    font-size:clamp(0.9rem, 1.4vw, 1.9rem);
 }
 .Developer{
     color:#00eaff;
