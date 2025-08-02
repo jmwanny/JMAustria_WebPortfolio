@@ -35,8 +35,8 @@ Feel free to explore the code or fork the repository:
 - **Animate.css** – For smooth entry and hover animations  
   🔗 [https://animate.style](https://animate.style)
 - **AOS (Animate on Scroll)** – For scroll-triggered effects  
-- **W3Forms** – To process the contact form  
-  🔗 [https://www.w3forms.com](https://www.w3forms.com)
+- **Web3Forms** – To process the contact form  
+  🔗 [https://www.w3forms.com](https://web3forms.com/)
 - **Vercel** – For lightning-fast deployment and hosting
 
 ---
