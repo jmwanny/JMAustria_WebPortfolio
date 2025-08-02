@@ -119,7 +119,7 @@ p{
 
 .form-container{
   width: 550px;
-min-height: 550px;
+  min-height: 550px;
 height: auto;
 background-color: #0e1a2b;
   backdrop-filter: blur(10px);
