@@ -226,7 +226,8 @@ position:relative;
  
 }
 .star.filled{
-  color:white;
+ color: #00eaff;
+ text-shadow: 0 0 2px #00eaff;
 
 }
 .starcount{
@@ -234,6 +235,7 @@ position:relative;
   font-size: 12px;
   padding-top: 2px;
   margin-left: 2px;
+  text-shadow: 0 0 2px #00eaff;
 
 }
 #logoToggle:checked + .logo-wrapper .stars,
