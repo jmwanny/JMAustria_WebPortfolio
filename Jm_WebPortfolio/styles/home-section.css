@@ -259,9 +259,15 @@ display: none;
   .intro-section-container{
 
   }
+  .description-text{
+    font-size:25px;
+  }
   .greeting-container{
   width:16ch;
 
+}
+.socials-text{
+  font-size: 20px;
 }
 }
 
