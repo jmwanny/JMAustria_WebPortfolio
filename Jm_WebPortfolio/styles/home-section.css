@@ -109,10 +109,11 @@ display: inline;
 }
 .description-container{
     width:100%;
-    font-size: clamp(0.9rem, 1.3vw,2rem);
+     
 }
 .description-text{
     color:white;
+    font-size:clamp(0.9rem, 1.4vw, 2rem);
 }
 .Developer{
     color:#00eaff;
@@ -260,7 +261,7 @@ display: none;
 
   }
   .description-text{
-    font-size:25px;
+ 
   }
   .greeting-container{
   width:16ch;
