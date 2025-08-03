@@ -887,14 +887,7 @@ transition: 0.5s ease;
 
 }
 .Buttons {
-  width:50vw;
-  height:30vh;
-  display: flex;
-  flex-direction: row;
-align-items: center;
-justify-items: center;
-  justify-content: space-evenly;
-  font-weight: 700;
+
 
 }
 
