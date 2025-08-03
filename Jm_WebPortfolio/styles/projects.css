@@ -815,6 +815,7 @@ margin: auto;
 }
 .header-container h1{
  font-size:60px;
+
 }
 
 .text1-container p:first-of-type{
@@ -846,6 +847,7 @@ color:white;
 color:white;
   font-size:20px;
 font-style: italic;
+
 }
 .text2-container p:nth-of-type(4){
 font-size:21px;

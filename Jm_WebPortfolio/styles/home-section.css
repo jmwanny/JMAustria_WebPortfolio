@@ -89,7 +89,7 @@ display: inline;
 }
 .greeting-text{
     color:white;
-    font-size:clamp(0.9rem, 1.4vw, 2rem);
+    font-size:clamp(0.9rem, 1.4vw, 1.5rem);
 }
 .tech-line{
     width:clamp(200px, 20vw, 450px);
@@ -113,7 +113,7 @@ display: inline;
 }
 .description-text{
     color:white;
-    font-size:clamp(0.9rem, 1.4vw, 1.9rem);
+    font-size:clamp(0.9rem, 1.4vw, 1.5rem);
 }
 .Developer{
     color:#00eaff;
