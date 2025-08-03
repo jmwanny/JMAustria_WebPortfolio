@@ -290,16 +290,18 @@
 }
   
 }
-@media (min-width:852px) and (max-width:1199px) {
+@media (min-width:850px) and (max-width:1199px) {
   .Pic2_Container{
-  
+  transform: translateX(20px);
 
-  }
+
+}
+
+  
 }
 @media (min-width:1200px) {
 .Text_Container h2 {
   font-size: 1.8rem;
-
 }
 }
 @media (min-width:1500px){
