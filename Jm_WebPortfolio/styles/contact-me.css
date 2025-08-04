@@ -92,7 +92,7 @@ p{
 .symbolD, .symbolE{
   color:white;
   padding-right: 10px;
-   transform: translateY(-2px);
+   transform: translateY(-3px);
 }
 .text-with-arrow{
   display: flex;
