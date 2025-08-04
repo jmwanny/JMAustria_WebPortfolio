@@ -88,10 +88,11 @@ p{
    text-align: start;
 
 }
-.symbol, .symbolB, .symbolC,
+.symbolA, .symbolB, .symbolC,
 .symbolD, .symbolE{
   color:white;
   padding-right: 10px;
+
 }
 .text-with-arrow{
   display: flex;
@@ -271,6 +272,7 @@ font-size: 40px;
 }
 p{
   font-size: 14px;
+
 }
 .Main-Container{
   flex-direction: column;
