@@ -1,7 +1,7 @@
 # 🌐 Juan Miguel Austria — Web Portfolio
 
 Welcome to my personal web portfolio!  
-I'm **Juan Miguel Austria** a 2nd-year Bachelor of Science in Information Technology (BSIT) student, passionate about web development, UI/UX design, and interactive user experiences.
+I'm **Juan Miguel Austria** a 2nd-year Bachelor of Science in Information Technology (BSIT) student, passionate about web development, UI/UX design, and interactive user experiences. Im currently learning all the skills I have and exapnding them. I hope to get 5 stars on all of my skills confidently by graduation. 
 
 This website showcases my:
 - Skills and programming languages
