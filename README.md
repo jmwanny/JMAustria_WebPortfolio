@@ -71,7 +71,7 @@ This portfolio is fully responsive across:
 
 If you'd like to collaborate or connect:
 
-📧 Email: *juanmiguelaustria@gmail.com*  
+📧 Email: *juanmiguelaus2@gmail.com*  
 📱 TikTok: *@tech1uan*  
 💼 LinkedIn: *(Optional)*
 
