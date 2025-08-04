@@ -92,7 +92,7 @@ p{
 .symbolD, .symbolE{
   color:white;
   padding-right: 10px;
-   border: 1px solid red;;
+   transform: translateY(-2px);
 }
 .text-with-arrow{
   display: flex;
@@ -260,8 +260,11 @@ p{
 .message-icon{
   font-size:35px;
 }
-}
 
+.symbolA, .symbolB .symbolC,
+.symbolD, .symbolE{
+}
+}
 @media (min-width:481px) and (max-width:691px){
 
   /*ContactMe-Setion*/
