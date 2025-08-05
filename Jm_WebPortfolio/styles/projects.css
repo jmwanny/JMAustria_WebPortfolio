@@ -109,6 +109,7 @@ justify-content: center;
  height: auto;
  position: relative;
 
+
  
 }
 
@@ -135,55 +136,56 @@ color:white;
 margin-right: 7rem;
 margin-left: 7rem;
 text-align: justify;
+
 }
 
 .btn1{
-color:white;
 text-decoration: none;
-border:1px solid #39D5FF;
+  color: #00eaff;
+  border: 2px solid #00eaff;
+  background: transparent;
 padding:15px;
 border-radius: 50px;
 position: relative;
-
-animation: pulseGlow 2s infinite ease-in-out;
   transition: 0.5s ease;
   height:50px;
   text-align: center;
-
+  font-weight: 600;
+  transform: translateY(-20px);
 }
 .btn2{
-color:white;
 text-decoration: none;
-border:1px solid #39D5FF;
+color: #00eaff;
+border: 2px solid #00eaff;
+background: transparent;
 padding:15px;
 border-radius: 50px;
 position: relative;
-animation: pulseGlow 2s infinite ease-in-out;
 transition: 0.5s ease;
   height:50px;
   text-align: center;
+    font-weight: 600;
+    transform: translateY(-20px);
 
 }
 
 .btn1:hover, .btn2:hover {
   background-color: #00eaff;
-  transition: 0.5s ease;
-  color:black;
-  font-weight: bold;
+  color: #050C16;
+  box-shadow: 0 0 12px #00eaff;
 
 }
 
 .Buttons {
-
   width:50vw;
-  height:30vh;
+  height:auto;
   display: flex;
   flex-direction: row;
-align-items: center;
-justify-items: center;
-  justify-content: space-evenly;
-  font-weight: 700;
-  padding-bottom: 80px;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+
+
 }
 
 /*Video-Projects Section */
@@ -266,22 +268,25 @@ margin: auto;
 
 .d1 a, .d2 a{
   text-decoration: none;
-  color:white;
-  border:1px solid #39D5FF;
+   color: #00eaff;
+  border: 2px solid #00eaff;
+  background: transparent;
 padding:15px;
 border-radius: 50px;
 position: relative;
-animation: pulseGlow 2s infinite ease-in-out;
   transition: 0.5s ease;
   height:50px;
   text-align: center;
+  font-weight: 600;
 
 }
 .d1 a:hover, .d2 a:hover {
   background-color: #00eaff;
-  transition: 0.5s ease;
-  color:black;
-  font-weight: bold;
+  color: #050C16;
+  box-shadow: 0 0 12px #00eaff;
+  transform: scale(1.05);
+
+
 
 }
 .gold{
@@ -300,18 +305,9 @@ font-weight: normal;
     
 }
 
-@keyframes pulseGlow {
-  0% {
-    box-shadow: 0 0 5px #00eaff, 0 0 10px #00eaff, 0 0 15px #00eaff;
-  }
-  50% {
-    box-shadow: 0 0 12px #00eaff, 0 0 25px #00eaff, 0 0 35px #00eaff;
-  }
-  100% {
-    box-shadow: 0 0 5px #00eaff, 0 0 10px #00eaff, 0 0 15px #00eaff;
-  }
 
-}
+
+
 @media (max-width:480px){
 .projects-section{
 
