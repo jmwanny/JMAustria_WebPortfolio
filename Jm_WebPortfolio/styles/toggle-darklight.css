@@ -11,7 +11,7 @@
     box-shadow: 0 8px 60px rgba(0,0,0,0,1),
     inset 0 0 8px 8px rgba(0,0,0,0,1),
         inset 0 0 -4px 4px rgba(0,0,0,0,1);
-        transform: translateX(-10px);
+        transform: translate(-10px, 2px);
 
 }
 
@@ -75,6 +75,11 @@
 
 @media (max-width:1034px) {
    #toggle-button {
-   transform: translateX(-20px);
+   transform: translate(-20px,2px);
+}
+
+.indicator{
+    width:38px;
+    height:38px;
 }
 }
