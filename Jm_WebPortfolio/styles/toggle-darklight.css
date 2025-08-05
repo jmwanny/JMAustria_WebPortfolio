@@ -4,7 +4,7 @@
     width: 80px;
     height:40px;
     border-radius: 50px;
-    border: 2px solid #00eaff;
+    border: 2.5px solid #00eaff;
     transition: 0.5s;
     cursor:pointer;
     background: #222;
@@ -46,7 +46,7 @@
 .indicator{
     position: absolute;
     top: -1.2px;
-    left: 0;
+    left:-1px;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -61,16 +61,13 @@
 }
 #toggle-button.active{
     background-color: white;
-    box-shadow: 0 8px 60px rgba(0,0,0,0,1),
-    inset 0 0 8px 8px rgba(0,0,0,0,1),
-        inset 0 0 -4px 4px rgba(0,0,0,0,1);
-        border:2.5px solid black;
+    border:2.5px solid black;
+
 }
 #toggle-button.active .indicator{
-    left:40px;
+    left:38px;
     transition: 0.5s;
     color:white;
-    box-shadow: 0 8px 60px rgba(0,0,0,0,1);
 }
 
 @media (max-width:1034px) {
