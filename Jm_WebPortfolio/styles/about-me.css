@@ -3,7 +3,6 @@
 .About-Me {
   width: 100% ;
   overflow: visible;
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11,8 +10,6 @@
   align-items: center;
   padding-top: 120px; 
   padding-bottom: 100px;
-
- 
 }
 .About-Me-Container{
   width:100%;

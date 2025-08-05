@@ -11,7 +11,7 @@
     box-shadow: 0 8px 60px rgba(0,0,0,0,1),
     inset 0 0 8px 8px rgba(0,0,0,0,1),
         inset 0 0 -4px 4px rgba(0,0,0,0,1);
-        transform: translate(140px, 2px);
+
 }
 
 .feather{
@@ -72,8 +72,8 @@
     box-shadow: 0 8px 60px rgba(0,0,0,0,1);
 }
 
-@media (max-width:480px) {
+@media (max-width:997px) {
    #toggle-button {
-    transform: translate(60px, 2px);
+   transform: translateX(-20px);
 }
 }
