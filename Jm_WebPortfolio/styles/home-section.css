@@ -111,7 +111,7 @@ display: inline;
     font-size:clamp(0.9rem, 1.4vw, 1.4rem);
 }
 .tech-line{
-    width:clamp(200px, 20vw, 450px);
+    width:clamp(200px, 20vw, 320px);
     object-fit: contain;
 }
 .name-container{
@@ -159,13 +159,13 @@ display: inline;
 
 @keyframes pulseGlow {
   0% {
-    box-shadow: 0 0 5px #00eaff, 0 0 10px #00eaff, 0 0 15px #00eaff;
+    box-shadow: 0 0 5px #00eaff, 0 0 8px #00eaff, 0 0 13px #00eaff;
   }
   50% {
-    box-shadow: 0 0 15px #00eaff, 0 0 20px #00eaff, 0 0 30px #00eaff;
+    box-shadow: 0 0 13px #00eaff, 0 0 18px #00eaff, 0 0 28px #00eaff;
   }
   100% {
-    box-shadow: 0 0 5px #00eaff, 0 0 10px #00eaff, 0 0 15px #00eaff;
+    box-shadow: 0 0 5px #00eaff, 0 0 8px #00eaff, 0 0 13px #00eaff;
   }
 }
 .socials-text-container{
