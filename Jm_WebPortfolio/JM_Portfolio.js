@@ -41,6 +41,15 @@ toggleButton.onclick = () => {
     indicator.classList.toggle("active");
     featherIcon.classList.toggle("active");
     featherSunIcon.classList.toggle("active");
+        const notif = document.getElementById("notif");
+
+    if (toggleButton.classList.contains("active")) {
+        notif.classList.remove("hidden");
+        
+        setTimeout(() => {
+            notif.classList.add("hidden");
+        }, 3000);
+    }
    
 }
 
