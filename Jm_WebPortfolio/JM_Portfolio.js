@@ -26,5 +26,22 @@
    }, 3000);
 });
 
+const toggleButton = document.getElementById("toggle-button");
+const indicator = document.querySelector(".indicator");
+const featherIcon = document.querySelector(".feather");
+const featherSunIcon = document.querySelector(".feather-sun");
+/*
+const bodyToggle = document.querySelector("body");
+const headerToggle = document.querySelector(".Header1");
+const mainNavLinks = document.querySelectorAll(".main-nav a");
+*/
+
+toggleButton.onclick = () => {
+    toggleButton.classList.toggle("active");
+    indicator.classList.toggle("active");
+    featherIcon.classList.toggle("active");
+    featherSunIcon.classList.toggle("active");
+   
+}
 
 

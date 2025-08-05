@@ -17,7 +17,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
+  transition: border 0.2s ease, background 0.2s ease;
+}
+.Header1.active{
+  border: 2px solid black;
+  background: white;
 }
 
 #jmlogo{
@@ -96,6 +100,9 @@
   position: relative;
   padding-bottom: 5px;
   transition: color 0.3s ease, text-shadow 0.3s ease; 
+}
+.main-nav a.active{
+  color:white;
 }
 .main-nav a::after {
   content: '';

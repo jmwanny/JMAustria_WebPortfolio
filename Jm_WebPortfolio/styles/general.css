@@ -13,7 +13,11 @@ width: 100%;
 overflow-x: hidden;
 max-width: 100vw;
 cursor:url("/CURSOR/cursor.png"), auto;
+transition: 0.2s ease;
 }   
+body.active{
+    background-color:white;
+}
 
 main{
   

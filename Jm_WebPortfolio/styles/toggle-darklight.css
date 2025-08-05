@@ -1,0 +1,79 @@
+#toggle-button{
+    position: relative;
+    display: block;
+    width: 80px;
+    height:40px;
+    border-radius: 50px;
+    border: 2px solid #00eaff;
+    transition: 0.5s;
+    cursor:pointer;
+    background: #222;
+    box-shadow: 0 8px 60px rgba(0,0,0,0,1),
+    inset 0 0 8px 8px rgba(0,0,0,0,1),
+        inset 0 0 -4px 4px rgba(0,0,0,0,1);
+        transform: translate(140px, 2px);
+}
+
+.feather{
+    position: absolute;
+    top:2.9px;
+    right:4px;
+    width: 30px;
+    height: 30px;
+     fill:#00eaff;
+     transition:0.15s
+}
+.feather.active{
+    opacity:0
+}
+.feather-sun{
+    position: absolute;
+    opacity:0;
+    transition: 0.3s ease;
+    width:25px;
+    height:25px;
+    left:7px;
+    top:5.5px;
+}
+.feather-sun.active{
+    opacity:1;
+}
+#toggle-button:hover{
+
+}
+
+.indicator{
+    position: absolute;
+    top: -1.2px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+   border:2.5px solid #00eaff;
+   background-color: #222;;
+    transform: scale(0.8);
+     transition: 0.5s;
+}
+.indicator.active{
+    border:2.5px solid black;
+    background-color:white;
+}
+#toggle-button.active{
+    background-color: white;
+    box-shadow: 0 8px 60px rgba(0,0,0,0,1),
+    inset 0 0 8px 8px rgba(0,0,0,0,1),
+        inset 0 0 -4px 4px rgba(0,0,0,0,1);
+        border:2.5px solid black;
+}
+#toggle-button.active .indicator{
+    left:40px;
+    transition: 0.5s;
+    color:white;
+    box-shadow: 0 8px 60px rgba(0,0,0,0,1);
+}
+
+@media (max-width:480px) {
+   #toggle-button {
+    transform: translate(60px, 2px);
+}
+}
