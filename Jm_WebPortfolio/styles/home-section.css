@@ -108,7 +108,7 @@ display: inline;
 }
 .greeting-text{
     color:white;
-    font-size:clamp(0.9rem, 1.4vw, 1.5rem);
+    font-size:clamp(0.9rem, 1.4vw, 1.4rem);
 }
 .tech-line{
     width:clamp(200px, 20vw, 450px);
@@ -123,7 +123,7 @@ display: inline;
 .name-text{
     color: white;
     padding:15px 0px 15px 15px;
-    font-size: clamp(2.8rem, 4.2vw, 5rem);
+    font-size: clamp(2.8rem, 4.2vw, 4.5rem);
 
 }
 .description-container{
@@ -132,7 +132,7 @@ display: inline;
 }
 .description-text{
     color:white;
-    font-size:clamp(0.9rem, 1.4vw, 1.5rem);
+    font-size:clamp(0.9rem, 1.4vw, 1.4rem);
 }
 .Developer{
     color:#00eaff;
@@ -296,7 +296,7 @@ display: none;
 
 }
 .socials-text{
-  font-size: 18px;
+  font-size: 16px;
 }
 .socials{
 
