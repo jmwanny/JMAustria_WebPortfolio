@@ -45,7 +45,7 @@
 
 .indicator{
     position: absolute;
-    top: -1.2px;
+    top: -1.9px;
     left:-1px;
     width: 40px;
     height: 40px;
@@ -54,6 +54,7 @@
    background-color: #222;;
     transform: scale(0.8);
      transition: 0.5s;
+     
 }
 .indicator.active{
     border:2.5px solid black;
