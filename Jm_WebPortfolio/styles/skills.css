@@ -1,14 +1,9 @@
 
 /*Skills Section*/
 .Skills {
-background-color: black;
   width: 100%;
   overflow: visible;
   text-align: center;
-  background-color: #050C16;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   padding-top: 100px; 
   padding-bottom: 100px;
 }
