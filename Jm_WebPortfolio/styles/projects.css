@@ -885,9 +885,8 @@ transition: 0.5s ease;
   font-weight: bold;
 
 }
-.Buttons {
-
-
+.Buttons{
+   padding-top: 55px;
 }
 
 /*Projects-Section*/
