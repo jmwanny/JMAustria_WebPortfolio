@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+ 
 }
 
 
@@ -34,7 +35,7 @@
   height: auto;
   width:clamp(250px, 23vw, 400px);
   object-fit: contain;
-  border-radius: 10px;;
+  border-radius: 10px;
 }
 
 .Text_Container  {
