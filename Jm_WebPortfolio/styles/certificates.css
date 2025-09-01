@@ -7,13 +7,6 @@
   padding-bottom:100px;
 
 }
-.text1-container-flex{
-
-}
-.certificates-container-flex{
-
-   
-}
 
 .Text1{
   width:100%;
@@ -35,6 +28,28 @@
   padding-top: 20px;
   text-align: justify;
 }
+.certificate-slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+  }
+
+.certificate-track {
+  display: flex;
+  gap: 40px; 
+  animation: scroll 30s linear infinite;
+}
+
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
 
 #cert2b{
   height:240px;
@@ -50,29 +65,25 @@
   padding-bottom: 10px;
 }
 
-.certificate-grid,.certificate-grid2{
-  
+.certificate-track,.certificate-grid2{
   display: flex;
   flex-direction: row;
- justify-content: center;
+  justify-content: center;
   gap: 20px;
   padding-bottom: 40px;
-
-
-
 }
 .certificate-grid3{
  
 }
 
-.certificate-grid .cert img,
+.certificate-track .cert img,
 .certificate-grid2 .cert img,
 .certificate-grid3 .cert img{
   width: 330px;
  
 }
 
-.certificate-grid .cert p,
+.certificate-track .cert p,
 .certificate-grid2 .cert p{
   color:white;
   font-weight: 100;
@@ -94,7 +105,7 @@ flex-wrap: nowrap;
 }
 #verify-button {
   text-decoration: none;
-     display: inline-block;
+  display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
   background: transparent;
@@ -120,7 +131,7 @@ flex-wrap: nowrap;
   .Text1>h1{
   font-size:34px;
 }
-.Text1>p{
+  .Text1>p{
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -141,7 +152,7 @@ flex-wrap: nowrap;
   display: none;
 }
 
-  .certificate-grid{
+  .certificate-track{
     display: flex;
     gap: 20px;
     width: max-content;
@@ -150,18 +161,18 @@ flex-wrap: nowrap;
     width: max-content;
   }
 
-  .certificate-grid .cert,
+  .certificate-track .cert,
   .certificate-grid3 .cert{
     flex-shrink: 0;
     width: 330px;
   }
 
-  .certificate-grid .cert img,
+  .certificate-track .cert img,
   .certificate-grid3 .cert img {
     width: 100%;
   }
 
-  .certificate-grid .cert p {
+  .certificate-track .cert p {
     color: white;
     font-weight: 100;
     font-size: 0.8rem;
@@ -171,8 +182,7 @@ flex-wrap: nowrap;
 }
 
 @media (min-width:481px) and (max-width:691px){
-.Certificates-Section {
-  }
+
    .Text1>h1{
 
 }
@@ -195,7 +205,7 @@ flex-wrap: nowrap;
   display: none;
 }
 
-  .certificate-grid {
+  .certificate-track {
     display: flex;
     gap: 20px;
     width: max-content;
@@ -203,15 +213,15 @@ flex-wrap: nowrap;
  .certificate-grid3{
     width: max-content;
   }
-  .certificate-grid .cert {
+  .certificate-track .cert {
     flex-shrink: 0;
     width: 330px;
   }
 
-  .certificate-grid .cert img {
+  .certificate-track .cert img {
     width: 100%;
   }
-  .certificate-grid .cert p {
+  .certificate-track .cert p {
     color: white;
     font-weight: 100;
     font-size: 0.8rem;
@@ -220,13 +230,49 @@ flex-wrap: nowrap;
 }
 
 @media (min-width:660px) and (max-width:1199px){
-  .Certificates-Section {
-  }
+  
   .Text1>p{
   margin-right: 20px;
   margin-left: 20px;
 
 }
+  .certificate-duplicate {
+    display: none; 
+  }
+
+  .certificate-slider-wrapper {
+    overflow: hidden;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  }
+  .certificate-slider-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+  .certificate-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+  }
+ .certificate-grid3{
+    width: max-content;
+  }
+  .certificate-track .cert {
+    flex-shrink: 0;
+    width: 330px;
+  }
+
+  .certificate-track .cert img {
+    width: 100%;
+  }
+  .certificate-track .cert p {
+    color: white;
+    font-weight: 100;
+    font-size: 0.8rem;
+    text-align: center;
+  }
 }
 
 
@@ -241,7 +287,7 @@ font-size: 65px;
   font-size:18px;
     max-width:1100px
 }
-.certificate-grid .cert p,
+.certificate-track .cert p,
 .certificate-grid2 .cert p{
   color:white;
   font-weight: 100;
