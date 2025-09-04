@@ -1,6 +1,6 @@
 {
-  "name": "JM Portfolio",
-  "short_name": "JM",
+  "name": "Juan Miguel Austria | Portfolio",
+  "short_name": "JM Austria",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -16,6 +16,6 @@
     }
   ],
   "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "background_color": "#010d10",
   "display": "standalone"
 }
