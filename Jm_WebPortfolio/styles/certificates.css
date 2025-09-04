@@ -71,6 +71,7 @@
   justify-content: center;
   gap: 20px;
   padding-bottom: 40px;
+ 
 }
 .certificate-grid3{
  
@@ -128,6 +129,16 @@ flex-wrap: nowrap;
 
   }
 
+   .certificate-grid2:has(.cert:nth-child(2)) {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: max-content;
+    gap: 20px;
+    scroll-snap-type: x mandatory; 
+  }
+
+  
+
   .Text1>h1{
   font-size:34px;
 }
@@ -183,6 +194,13 @@ flex-wrap: nowrap;
 
 @media (min-width:481px) and (max-width:691px){
 
+   .certificate-grid2:has(.cert:nth-child(2)) {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: max-content;
+    gap: 20px;
+    scroll-snap-type: x mandatory; 
+  }
    .Text1>h1{
 
 }
