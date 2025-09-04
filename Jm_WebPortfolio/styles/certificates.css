@@ -126,7 +126,7 @@ flex-wrap: nowrap;
 }
 @media (max-width: 480px) {
   .Certificates-Section {
-border:1px solid red;
+
   }
 
    .certificate-grid2:has(.cert:nth-child(2)) {
