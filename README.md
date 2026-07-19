@@ -89,52 +89,6 @@ public/
  └── BasicBankApp (JAR)/
 ```
 
----
-
-## ⚙️ Configuration
-
-### Resume
-
-Replace the resume file located at:
-
-```
-public/Docs/JM_Austria_CV_Coming_Soon.pdf
-```
-
-with your latest CV.
-
-### Basic Banking App
-
-To enable the **Download App** button, place:
-
-```
-public/BasicBankApp (JAR)/BasicBankApp.jar
-```
-
-inside the specified folder.
-
-### Portfolio Content
-
-Most portfolio content can be edited in:
-
-```
-src/data.js
-```
-
-including:
-
-- Personal information
-- Skills
-- Projects
-- Education
-- Certificates
-- Social links
-- Experience
-
-No component modifications are required.
-
----
-
 ## 📬 Contact
 
 Feel free to connect with me.
