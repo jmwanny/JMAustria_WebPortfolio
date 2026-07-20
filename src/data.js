@@ -11,7 +11,7 @@ export const techStack = [
       { name: "JavaScript", icon: dic("javascript") },
       { name: "HTML5", icon: dic("html5") },
       { name: "CSS3", icon: dic("css3") },
-      { name: "Tailwind CSS", icon: dic("tailwindcss", "plain") },
+      { name: "Tailwind CSS", icon: dic("tailwindcss") },
     ],
   },
   {
@@ -19,7 +19,7 @@ export const techStack = [
     color: "#ffb454",
     items: [
       { name: "Node.js", icon: dic("nodejs") },
-      { name: "Express.js", icon: dic("express", "original-wordmark") },
+      { name: "Express.js", icon: "https://cdn.simpleicons.org/express/ffffff" },
       { name: "MySQL", icon: dic("mysql") },
     ],
   },
@@ -30,7 +30,6 @@ export const techStack = [
       { name: "n8n", icon: "https://cdn.simpleicons.org/n8n/ffffff" },
       { name: "Make", icon: "https://cdn.simpleicons.org/make/ffffff" },
       { name: "Zapier", icon: "https://cdn.simpleicons.org/zapier/ffffff" },
-      { name: "OpenAI API", icon: "https://cdn.simpleicons.org/openai/ffffff" },
     ],
   },
   {
@@ -67,9 +66,10 @@ export const skills = [
     items: [
       { name: "HTML", level: 5, icon: dic("html5") },
       { name: "CSS", level: 5, icon: dic("css3") },
-      { name: "Tailwind CSS", level: 5, icon: dic("tailwindcss", "plain") },
-      { name: "React", level: 5, icon: dic("react") },
-      { name: "Node.js", level: 5, icon: dic("nodejs") },
+      { name: "Tailwind CSS", level: 5, icon: dic("tailwindcss") },
+      { name: "React", level: 4, icon: dic("react") },
+      { name: "Node.js", level: 4, icon: dic("nodejs") },
+     { name: "Express.js",level:5, icon: "https://cdn.simpleicons.org/express/ffffff" },
       { name: "MySQL", level: 5, icon: dic("mysql") },
     ],
   },
@@ -104,7 +104,7 @@ export const projects = [
     tag: "Weather App",
     tags: ["HTML", "CSS", "JavaScript"],
     desc: "Interactive weather app with 7-day forecasts, dynamic day/night themes, ambient background music, and PWA support.",
-      image:"url('/ProjectsImages/gastoo-project.png')",
+    image:"url('/ProjectsImages/araw-mo.png')",
     demo: "https://araw-mo-weather-app.vercel.app/",
     code: "https://github.com/tech1uan/ArawMo-Weather-App-",
     accent: "#00eaff",
@@ -112,8 +112,8 @@ export const projects = [
   {
     title: "GASTOO!",
     tag: "Expense Tracker",
-    tags: ["HTML", "Tailwind", "JavaScript"],
-    desc: "Responsive expense tracker with balance management and visual spending analytics.",
+    tags: ["HTML", "Tailwind", "JavaScript", "Express JS", "Node JS", "MySQL", "Gemini API","Web Push"],
+    desc: "Responsive expense tracker featuring AI-driven smart spending insights",
     image:"url('/ProjectsImages/gastoo-project.png')",
     demo: "https://gastoo-intro-web-page.vercel.app/",
     code: "https://github.com/tech1uan/EyeGasto-",
@@ -124,7 +124,7 @@ export const projects = [
     tag: "Desktop App",
     tags: ["Java", "Swing"],
     desc: "Desktop banking application with MPIN login, balance checks, and deposit / withdraw functionality.",
-    image:"url('/ProjectsImages/gastoo-project.png')",
+    image:"url('/ProjectsImages/basic-banking-app.png')",
     download: "BasicBankApp (JAR)/BasicBankApp.jar",
     code: "https://github.com/tech1uan/Basic_BankingAPP",
     accent: "#7dd3fc",
@@ -134,7 +134,7 @@ export const projects = [
     tag: "Desktop Game",
     tags: ["Java", "OOP", "JavaFX"],
     desc: "Desktop Tic Tac Toe with PvP and PvAI modes, selectable difficulty, background music, and a clean interface.",
-    image:"url('/ProjectsImages/gastoo-project.png')",
+    image:"url('/ProjectsImages/tic-tac-toe.png')",
     code: "https://github.com/tech1uan/1tech_tic-tac-toe-java",
     accent: "#c084fc",
   },
@@ -143,7 +143,7 @@ export const projects = [
     tag: "School Project",
     tags: ["HTML", "CSS", "JavaScript"],
     desc: "Clean Albay Tourism website built as a final project for Web Technologies, from vanilla HTML, CSS and JS.",
-      image:"url('/ProjectsImages/gastoo-project.png')",
+      image:"url('/ProjectsImages/albay-tourism.png')",
     demo: "https://tech1uan.github.io/Albay-Tourism-Website-School-Project-Purposes-/",
     code: "https://github.com/tech1uan/Albay-Tourism-Website-School-Project-Purposes-",
     accent: "#34d399",
@@ -163,6 +163,12 @@ export const videos = [
     embed: "https://www.youtube.com/embed/Ohe5wzeNkFk?rel=0",
     link: "https://youtu.be/Ohe5wzeNkFk?si=HZ-hvgE_QkXHIDGP",
   },
+ {
+  title: "PSC X Award-Winning Video Pitch",
+  desc: "The official startup pitch presentation for AgriPITA at the Philippine Startup Challenge 10. Edited and produced by Juan Miguel Austria, securing the Best Video Pitch Award and a 4th Runner-Up regional finish.",
+  embed: "https://www.youtube.com/embed/lhS-OqF39o4?rel=0",
+  link: "https://www.youtube.com/watch?v=lhS-OqF39o4",
+}
 ];
 
 export const education = [
@@ -192,10 +198,39 @@ export const education = [
 ];
 
 export const certificates = [
-  { title: "DICT Basic Digital Literacy Training", meta: "40 hrs · Work Immersion" },
-  { title: "DICT Work Immersion", meta: "80 hrs" },
-  { title: "Work Immersion Awardee", meta: "DICT Program" },
-  { title: "AIDEASDICT Hackathon, Naga City", meta: "Certificate of Participation · 2025" },
+  { title: "DICT Basic Digital Literacy Training", meta: "40 hrs · Work Immersion", img: "/Certificates_Images/digital-literacy.png" },
+  { title: "DICT Work Immersion", meta: "80 hrs", img: "/Certificates_Images/dict-work-immersion.png" },
+  { title: "Work Immersion Awardee", meta: "DICT Program", img: "/Certificates_Images/work-immersion-award.jpg" },
+  { 
+    title: "4th Runner-Up — Regional Startup Challenge", 
+    meta: "Philippine Startup Challenge 10 (Bicol Region) · 2025",
+    desc: "Placed 4th Runner-Up out of hundreds of strong teams across the region in an intensive startup pitching competition.",
+    img: "/Certificates_Images/dict-work-immersion.png"
+  },
+  { 
+    title: "Best Logo Design", 
+    meta: "PSC X Philippine Startup Challenge 10 · 2025",
+    desc: "Awarded the top visual design recognition for creating the most outstanding and impactful startup brand identity.",
+     img: "/Certificates_Images/best-logo.jpeg"
+  },
+  { 
+    title: "Best Video Presentation", 
+    meta: "PSC X Philippine Startup Challenge 10 · 2025",
+    desc: "Independently edited and produced the award-winning video showcase used for the final competitive pitch.",
+     img: "/Certificates_Images/best-video.jpeg"
+  },
+  { 
+    title: "AIDEASDICT Hackathon Participant", 
+    meta: "Certificate of Participation (Naga City) · 2025",
+    desc: "Collaborated in a fast-paced environment to build and pitch innovative tech solutions.",
+     img: "/Certificates_Images/aideas-hackathon-cert.jpg"
+  },
+  { 
+    title: "Event Head & Organizer", 
+    meta: "PITA Computer Studies Society · 2026",
+    desc: "Spearheaded management for the PITA IT Week 2026 celebration, orchestrating the Beyond Code Seminar, Project Nexus Colloquium, and PITA Startup 2.",
+     img: "/Certificates_Images/event-head.jpg"
+  },
 ];
 
 export const achievements = [
@@ -208,11 +243,11 @@ export const achievements = [
     desc: "Competed in a regional AI/DICT-backed hackathon in Naga City, advancing to the top 10 out of the full field of teams.",
   },
   {
-    title: "Philippine Startup Challenge",
-    org: "National Competition",
+    title: "Philippine Startup Challenge X",
+    org: "Regional Competition",
     type: "competition",
     badges: ["Top Finalist", "4th Runner-up", "Best Logo Design", "Best Video Pitch"],
-    desc: "Reached the top finalists nationally and placed 4th Runner-up. Also won Best Logo Design and Best Video Pitch — the pitch video was shot and edited by me.",
+    desc: "Reached the top finalists regionally and placed 4th Runner-up. Also won Best Logo Design and Best Video Pitch — the pitch video was shot and edited by me.",
   },
   {
     title: "Responsive Web Design Certification",
@@ -244,11 +279,11 @@ export const achievements = [
     desc: "Attended CLICKCONEX 2026, a major national IT event in Naga City, and was assigned to handle a VIP guest throughout the event.",
   },
   {
-    title: "DevCon x Sui Codecamp",
-    org: "Ligao City",
-    type: "mentorship",
-    badges: ["Mentor"],
-    desc: "Served as a mentor at the DevCon x Sui Codecamp bootcamp in Ligao City, guiding participants through blockchain/web dev fundamentals.",
+    title: "2nd Year Batch Representative",
+    org: "PITA Computer Studies Society",
+    type: "leadership",
+    badges: ["Student Liaison"],
+    desc: "Served as the primary representative to connect the student body, efficiently disseminating organizational updates and fostering unity across the batch.",
   },
 ];
 
