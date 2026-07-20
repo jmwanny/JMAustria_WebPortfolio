@@ -7,7 +7,7 @@ export default function SectionHeading({ eyebrow, title, subtitle, align = "cent
           <span className="text-ink2">//</span> {eyebrow}
         </span>
       )}
-      <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
+      <h2 className="font-display text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
         {title}
       </h2>
       <span className="block h-[3px] w-14 rounded-full bg-gradient-to-r from-cyan to-amber" />

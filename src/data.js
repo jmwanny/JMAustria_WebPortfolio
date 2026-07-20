@@ -165,7 +165,7 @@ export const videos = [
   },
  {
   title: "PSC X Award-Winning Video Pitch",
-  desc: "The official startup pitch presentation for AgriPITA at the Philippine Startup Challenge 10. Edited and produced by Juan Miguel Austria, securing the Best Video Pitch Award and a 4th Runner-Up regional finish.",
+  desc: "The official startup pitch presentation for AgriKita at the Philippine Startup Challenge 10. Edited and produced by Juan Miguel Austria, securing the Best Video Pitch Award and a 4th Runner-Up regional finish.",
   embed: "https://www.youtube.com/embed/lhS-OqF39o4?rel=0",
   link: "https://www.youtube.com/watch?v=lhS-OqF39o4",
 }
@@ -175,7 +175,7 @@ export const education = [
   {
     school: "Polytechnic Institute of Tabaco",
     course: "BS in Information Technology",
-    status: "2nd Year Student",
+    status: "3rd Year Student",
     period: "2024 – Present",
     back: { title: "GWA", lines: ["First Year: 1.0", "Second Year: 1.0", "Third Year: Soon", "Fourth Year: Soon"] },
   },

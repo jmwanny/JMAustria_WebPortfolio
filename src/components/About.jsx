@@ -2,7 +2,7 @@ import { GraduationCap, MapPin, Sparkles, Target } from "lucide-react";
 import SectionHeading from "./SectionHeading.jsx";
 
 const FACTS = [
-  { icon: GraduationCap, label: "Education", value: "BSIT, PITA — 2nd Year" },
+  { icon: GraduationCap, label: "Education", value: "BSIT, PITA — 3rd Year" },
   { icon: MapPin, label: "Based in", value: "Albay, Philippines" },
   { icon: Target, label: "Focus", value: "Full Stack Web Dev" },
   { icon: Sparkles, label: "Currently learning", value: "AI Automation" },
@@ -25,7 +25,7 @@ export default function About() {
             <div className="p-6 font-mono text-[13px] leading-relaxed text-ink2">
               <p className="text-cyan mb-3">$ cat about.md</p>
               <p>
-                Hi, I'm <span className="text-white font-semibold">Juan Miguel Austria</span> — a second-year BSIT
+                Hi, I'm <span className="text-white font-semibold">Juan Miguel Austria</span> — a third-year BSIT
                 student with a strong passion for web and software development.
               </p>
               <p className="mt-4">
@@ -44,7 +44,7 @@ export default function About() {
           </div>
 
           <div className="flex justify-center">
-            <img src="/Jm_About_Pic.png" alt="Juan Austria's picture" />
+            <img src="/Jm_About_Pic.png" alt="Juan Austria's picture" className="w-full max-w-[500px]" />
           </div>
 
           <div className="grid sm:grid-cols-2 gap-4">

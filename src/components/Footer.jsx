@@ -8,8 +8,8 @@ export default function Footer() {
   return (
     <footer className="border-t border-line py-14 px-5 sm:px-8">
       <div className="max-w-3xl mx-auto flex flex-col items-center gap-6 text-center">
-        <span className="w-11 h-11 rounded-xl bg-panel border border-line grid place-items-center font-mono text-cyan font-bold">
-          JM
+        <span className="w-11 p-1.5 h-11 rounded-xl bg-panel border border-line grid place-items-center font-mono text-cyan font-bold">
+          <img src="Jm_Logo.png" alt="JM Logo" />
         </span>
 
         <a href="#home" className="font-mono text-xs text-cyan inline-flex items-center gap-1.5 hover:underline underline-offset-4">
