@@ -21,7 +21,9 @@ const OTHER_CERTS = [
         title: "Responsive Web Design Certification",
         meta: "freeCodeCamp",
         link: "https://www.freecodecamp.org/certification/jmaustria/responsive-web-design",
-          img: "/Certificates_Images/responsive-web-design.jpg"
+          img: "/Certificates_Images/responsive-web-design.jpg",
+        desc: "Completed freeCodeCamp's comprehensive Responsive Web Design certification, mastering HTML, CSS, Flexbox, Grid, and accessibility fundamentals through hands-on projects."
+
       },
     ],
   },
@@ -32,13 +34,17 @@ const OTHER_CERTS = [
         icon: BadgeCheck,
         title: "UI/UX Design & IT Careers",
         meta: "Certificate",
-        img: "/Certificates_Images/beyond-the-screen.jpg"
+        img: "/Certificates_Images/beyond-the-screen.jpg",
+        desc: "Explored core UI/UX design principles and gained insights into career pathways in the IT industry."
+
       },
       {
         icon: Gamepad2,
         title: "Game Development Basics",
         meta: "Certificate",
-        img: "/Certificates_Images/game-dev.jpg"
+        img: "/Certificates_Images/game-dev.jpg",
+        desc: "Learned the fundamentals of game design and development, including game mechanics, logic, and interactive storytelling."
+
       },
     ],
   },
@@ -49,13 +55,16 @@ const OTHER_CERTS = [
         icon: Cloud,
         title: "Cloud Computing & Coding",
         meta: "Certificate",
-        img: "/Certificates_Images/cloud-and-code.jpg"
+        img: "/Certificates_Images/cloud-and-code.jpg",
+        desc: "Covered cloud computing concepts and hands-on coding practices relevant to modern cloud-based development."
+
       },
       {
         icon: BrainCircuit,
         title: "AI for Productivity & Mindset",
         meta: "Certificate",
-        img: "/Certificates_Images/vibe-check.jpg"
+        img: "/Certificates_Images/vibe-check.jpg",
+        desc: "Explored practical ways to leverage AI tools for productivity, creative problem-solving, and a growth-oriented mindset."
       },
     ],
   },
@@ -140,6 +149,12 @@ export default function Certificates() {
                       {c.meta}
                     </p>
 
+                    {c.desc && (
+                      <p className="text-ink2 text-xs leading-relaxed mt-1">
+                        {c.desc}
+                      </p>
+                    )}
+
                     {c.link && (
                       <a
                         href={c.link}
@@ -195,6 +210,12 @@ export default function Certificates() {
                 <p className="text-xs text-ink2 font-mono">
                   {it.meta}
                 </p>
+
+                {it.desc && (
+                  <p className="text-ink2 text-xs leading-relaxed mt-1">
+                    {it.desc}
+                  </p>
+                )}
 
                 {it.link && (
                   <a

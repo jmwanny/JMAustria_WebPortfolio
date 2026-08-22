@@ -198,14 +198,22 @@ export const education = [
 ];
 
 export const certificates = [
-  { title: "DICT Basic Digital Literacy Training", meta: "40 hrs · Work Immersion", img: "/Certificates_Images/digital-literacy.png" },
-  { title: "DICT Work Immersion", meta: "80 hrs", img: "/Certificates_Images/dict-work-immersion.png" },
-  { title: "Work Immersion Awardee", meta: "DICT Program", img: "/Certificates_Images/work-immersion-award.jpg" },
+  { title: "DICT Basic Digital Literacy Training", meta: "40 hrs · Work Immersion", img: "/Certificates_Images/digital-literacy.png",
+    desc: "Completed a 40-hour foundational training on digital literacy covering essential computer skills, internet safety, and productivity tools under the DICT program."
+
+   },
+  { title: "DICT Work Immersion", meta: "80 hrs", img: "/Certificates_Images/dict-work-immersion.png",
+    desc: "Finished an 80-hour work immersion program with the Department of Information and Communications Technology, gaining hands-on experience in a real-world tech environment."
+
+  },
+  { title: "Work Immersion Awardee", meta: "DICT Program", img: "/Certificates_Images/work-immersion-award.jpg",
+    desc: "Recognized for outstanding performance and contributions during the DICT Work Immersion program, demonstrating initiative and technical competence."
+  },
   { 
     title: "4th Runner-Up — Regional Startup Challenge", 
     meta: "Philippine Startup Challenge 10 (Bicol Region) · 2025",
     desc: "Placed 4th Runner-Up out of hundreds of strong teams across the region in an intensive startup pitching competition.",
-    img: "/Certificates_Images/dict-work-immersion.png"
+    img: "/Certificates_Images/4th-runner-up-cert.jpg"
   },
   { 
     title: "Best Logo Design", 
@@ -216,7 +224,7 @@ export const certificates = [
   { 
     title: "Best Video Presentation", 
     meta: "PSC X Philippine Startup Challenge 10 · 2025",
-    desc: "Independently edited and produced the award-winning video showcase used for the final competitive pitch.",
+    desc: "Independently edited and produced the award-winning video showcase used for the final competitive pitch. Video editor: Juan Miguel Austria.",
      img: "/Certificates_Images/best-video.jpeg"
   },
   { 
@@ -231,6 +239,28 @@ export const certificates = [
     desc: "Spearheaded management for the PITA IT Week 2026 celebration, orchestrating the Beyond Code Seminar, Project Nexus Colloquium, and PITA Startup 2.",
      img: "/Certificates_Images/event-head.jpg"
   },
+  
+  {
+    title: "Certificate of Participation",
+    meta: "Heroes of Innovation Challenge 2026 · Ibalong Festival Hackathon",
+    img: "/Certificates_Images/participation-ibalong.jpg",
+    desc: "Participated in the Heroes of Innovation Challenge 2026, a hackathon held during the Ibalong Festival, competing alongside 35 teams."
+
+  },
+  {
+    title: "Certificate of Recognition — JAM TECH (Our Team Name)",
+    meta: "Heroes of Innovation 2026 · Top 15 Finalist · 3rd Place, Baltog Track",
+    img: "/Certificates_Images/recognition-ibalong.jpg",
+    desc: "Recognized for securing 3rd Place in the Baltog Track as part of team JAM TECH, advancing to the top 15 finalists out of 35 competing teams.",
+  },
+
+  {
+  title: "Certificate of Appearance",
+  meta: "Heroes of Innovation Challenge 2026 · Ibalong Festival",
+  img: "/Certificates_Images/appearance-ibalong.jpg",
+  desc: "Attended the Heroes of Innovation Challenge 2026 at the Ibalong Festival, engaging with fellow developers and innovators."
+  }
+
 ];
 
 export const achievements = [
@@ -285,6 +315,14 @@ export const achievements = [
     badges: ["Student Liaison"],
     desc: "Served as the primary representative to connect the student body, efficiently disseminating organizational updates and fostering unity across the batch.",
   },
+  {
+  title: "Heroes of Innovation Challenge 2026",
+  org: "Ibalong Festival Hackathon",
+  date: "2026",
+  type: "competition",
+  badges: ["Top 15 Finalist", "3rd Place — Baltog Track", "Full Stack + CV Developer"],
+  desc: "Competed against 35 strong teams in a hackathon held during the Ibalong Festival. Advanced to the top 15 finalists and secured 3rd place in the Baltog Track. Served as the main developer of the SIKO Commuter App prototype, building both the full stack web application and computer vision components.",
+  }
 ];
 
 export const socials = [

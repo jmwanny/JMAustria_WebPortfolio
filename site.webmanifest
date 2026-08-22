@@ -1,6 +1,6 @@
 {
-  "name": "Juan Miguel Austria | Portfolio",
-  "short_name": "JM Austria",
+  "name": "Tech1uan",
+  "short_name": "T1uan",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -16,6 +16,6 @@
     }
   ],
   "theme_color": "#ffffff",
-  "background_color": "#010d10",
+  "background_color": "#000000",
   "display": "standalone"
 }
